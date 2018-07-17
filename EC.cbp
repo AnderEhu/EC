@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dani/Documents/UNI/EC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dani/Documents/UNI/EC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EC_arm9_objcopy">
+				<Option working_dir="/home/dani/Documents/UNI/EC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 EC_arm9_objcopy"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dani/Documents/UNI/EC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EC_arm9">
+				<Option output="/home/dani/Documents/UNI/EC/EC_arm9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dani/Documents/UNI/EC"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM9"/>
+					<Add directory="/opt/devkitpro/libnds/include"/>
+					<Add directory="/home/dani/Documents/UNI/EC/assets/gen"/>
+					<Add directory="/home/dani/Documents/UNI/EC/shared"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 EC_arm9"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EC_arm9/fast">
+				<Option output="/home/dani/Documents/UNI/EC/EC_arm9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dani/Documents/UNI/EC"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM9"/>
+					<Add directory="/opt/devkitpro/libnds/include"/>
+					<Add directory="/home/dani/Documents/UNI/EC/assets/gen"/>
+					<Add directory="/home/dani/Documents/UNI/EC/shared"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 EC_arm9/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EC_assets_raw">
+				<Option working_dir="/home/dani/Documents/UNI/EC"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 EC_assets_raw"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EC_assets">
+				<Option output="/home/dani/Documents/UNI/EC/CMakeFiles/EC_assets.dir/EC_assets.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dani/Documents/UNI/EC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM9"/>
+					<Add directory="/opt/devkitpro/libnds/include"/>
+					<Add directory="/home/dani/Documents/UNI/EC/assets/gen"/>
+					<Add directory="/home/dani/Documents/UNI/EC/shared"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 EC_assets"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EC_assets/fast">
+				<Option output="/home/dani/Documents/UNI/EC/CMakeFiles/EC_assets.dir/EC_assets.objlib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dani/Documents/UNI/EC"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM9"/>
+					<Add directory="/opt/devkitpro/libnds/include"/>
+					<Add directory="/home/dani/Documents/UNI/EC/assets/gen"/>
+					<Add directory="/home/dani/Documents/UNI/EC/shared"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/../../../../include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 EC_assets/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/dani/Documents/UNI/EC/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dani/Documents/UNI/EC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/dani/Documents/UNI/EC/cmake/nds.platform.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/dani/Documents/UNI/EC/cmake/nds.macro.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

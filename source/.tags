@@ -1,0 +1,16 @@
+gfxBillete	/home/ander/EC/source/sprites.c	/^u16* gfxBillete;$/;"	variable	line:13
+gfxBilleteSucio	/home/ander/EC/source/sprites.c	/^u16* gfxBilleteSucio;$/;"	variable	line:14
+gfxSobre	/home/ander/EC/source/sprites.c	/^u16* gfxSobre;$/;"	variable	line:15
+gfxMaletin	/home/ander/EC/source/sprites.c	/^u16* gfxMaletin;$/;"	variable	line:16
+initSpriteMem	/home/ander/EC/source/sprites.c	/^void initSpriteMem() {$/;"	function	line:20
+establecerPaletaPrincipal	/home/ander/EC/source/sprites.c	/^void establecerPaletaPrincipal() {$/;"	function	line:38
+establecerPaletaSecundaria	/home/ander/EC/source/sprites.c	/^void establecerPaletaSecundaria() {$/;"	function	line:69
+Sobre	/home/ander/EC/source/sprites.c	/^u8 Sobre[256] =$/;"	variable	line:85
+Maletin	/home/ander/EC/source/sprites.c	/^u8 Maletin[256] =$/;"	variable	line:108
+Billete	/home/ander/EC/source/sprites.c	/^u8 Billete[256] =$/;"	variable	line:167
+BilleteSucio	/home/ander/EC/source/sprites.c	/^u8 BilleteSucio[256] =$/;"	variable	line:191
+BorrarBillete	/home/ander/EC/source/sprites.c	/^void BorrarBillete(int billete[]) {$/;"	function	line:216	signature:(int billete[])
+MostrarBillete	/home/ander/EC/source/sprites.c	/^void MostrarBillete (int billete[]){$/;"	function	line:236	signature:(int billete[])
+BorrarSobre	/home/ander/EC/source/sprites.c	/^void BorrarSobre(int x, int y){$/;"	function	line:254	signature:(int x, int y)
+MostrarSobre	/home/ander/EC/source/sprites.c	/^void MostrarSobre (int x, int y){$/;"	function	line:272	signature:(int x, int y)
+guardarSpritesEnMemoria	/home/ander/EC/source/sprites.c	/^void guardarSpritesEnMemoria(){$/;"	function	line:293
