@@ -1,0 +1,2 @@
+# EC
+Juego Nintendo DS
